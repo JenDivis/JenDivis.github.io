@@ -11,8 +11,7 @@ main {
 }
 
 img {
-    float: left;
-    max-width: 24%;
+    max-width: 100%;
     height: auto;
     border: 1px solid #021a40;
     margin-right: 40px;
@@ -21,9 +20,9 @@ img {
 h1 {
     background-color: #BF0D19;
     color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Gloria Hallelujah', cursive;
     padding: 10px;
-    font-size: 80px;
+    font-size: 50px;
 }
 
 h2, ul {

@@ -1,0 +1,10 @@
+@media only screen and (min-width: 32.5em) {
+    img {
+        float: left;
+        max-width: 24%;
+        height: auto;
+        border: 1px solid #021a40;
+        margin-right: 40px;
+    }
+
+}
