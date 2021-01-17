@@ -3,4 +3,9 @@
     main {
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    h1, h3 {
+        font-size: 150px;
+        justify-self: center;
+    }
 }

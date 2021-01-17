@@ -1,5 +1,19 @@
+h1 {
+    background-color: #BF0D19;
+    color: white;
+    padding: 10px;
+    font-size: 50px;
+}
+
 h1, h3 {
     font-family: 'Bilbo', cursive;
+    font-size: 50px;
+    justify-self: center;
+}
+
+h4 {
+    font-size: 25px;
+    justify-self: center;
 }
 
 p {
@@ -15,6 +29,7 @@ img {
     border-top-width: 60px;
     border-bottom-width: 60px;
     border-radius: 36px;
+    justify-self: center;
 }
 
 main {
@@ -37,4 +52,11 @@ main {
 #column3 {
     padding: 20px;
     background-color: #D8F1FD;
+}
+
+footer {
+    background-color: #BF0D19;
+    padding: 10px;
+    color: white;
+    text-align: center;
 }
