@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
+        <script></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
+        <meta name="description" content="Weather and local information for southeastern Idaho">
         <link href="css/normalize.css" rel="stylesheet">
         <link href="css/small.css" rel="stylesheet">
         <link href="css/medium.css" rel="stylesheet">
@@ -12,11 +13,20 @@
         <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap" rel="stylesheet">
+        <title>The Blue Bird Bulletin</title>
+        <script src="./js/menu.js"></script>
     </head>
     <body>
-        <header></header>
+        <header>
+            <div id="headerFlex">
+                <img id="icon" src="./images/bird.png" alt="Blue Bird Icon">
+                <h1>The Blue Bird Bulletin</h1>
+            </div>
+            <p>Hello, Southwest Idaho!</p>
+        </header>
         <nav>
-            <ul>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="hamburger" class="hide">
                 <li><a>Home</a></li>
                 <li><a>Preston</a></li>
                 <li><a>Soda Springs</a></li>
@@ -25,7 +35,25 @@
                 <li><a>Gallery</a></li>
             </ul>
         </nav>
-        <main></main>
-        <footer></footer>
+        <main>
+            <h2>Preston, Idaho</h2>
+            <img id="heroImage" src="" alt="">
+            <h3>Weather Summary</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti ullam rem odio, odit consequatur? Quae quasi, aliquam neque culpa quos rem id labore non autem enim iusto. Quas, iusto?</p>
+            <div id="forecastDiv">
+                <h3>Five Day Forecast</h3>
+                <h4>Article Title</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione adipisci repellendus fugiat, esse, quaerat ex reiciendis minima consequatur nam nulla velit! Ullam quos eligendi quasi quas modi ex adipisci deserunt.</p>
+                <img src="" alt="">
+            </div>
+        </main>
+        <footer>
+            <p>Contact information</p>
+            <img src="images/idahoMap.jpg" alt="map" width="200">
+            <div>
+                &copy; 2021 | Jennifer Divis | Maryland | <a href="https://www.byui.edu/online">BYU-I Online Learning</a>
+            </div>
+            <script src="./js/currentDate.js"></script>
+        </footer>
     </body>
 </html>
