@@ -1,6 +1,6 @@
-var z = new Date();
-var n = z.getDay();
+var a = new Date();
+var n = a.getDay();
 
-if(n == 6) {
-    document.getElementsByClassName("banner").className = "displayTrue";
+if(n == 5) {
+    document.getElementById("banner").className = "displayTrue";
 }

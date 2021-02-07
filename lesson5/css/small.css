@@ -148,7 +148,7 @@ nav ul.hide {
     display: none;
 }
 
-.banner .displayTrue {
+.displayTrue {
     display: block;
     padding-left: 20px;
 }
