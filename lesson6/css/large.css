@@ -11,9 +11,8 @@
         font-size: 30px;
     }
 
-    .weatherSum {
-        margin-top: 15px;
-        margin-left: 75px;
+    .heroDiv {
+        width: 800px;
     }
 
     #forecastDiv div {

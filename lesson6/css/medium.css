@@ -31,21 +31,16 @@
     .heroDiv {
         position: relative;
         margin: 10px auto;
-        width: 100%;
+        width: 534px;
     }
 
     .weatherSum {
         position: absolute;
-        top: 5px;
-        left: 80px;
+        top: 10px;
+        left: 10px;
         opacity: 0.8;
     }
     
     .weatherSum h3 {
         margin-top: 0;
-    }
-    
-    .weatherSum p {
-        font-size: 25px;
-    }
 }

@@ -144,6 +144,16 @@ nav ul.hide {
     background-color: #bce784;
 }
 
+.weatherSum h3 {
+    margin-bottom: 5px;
+}
+
+.weatherSum p {
+    font-size: 20px;
+    margin: 5px;
+
+}
+
 .banner {
     display: none;
 }
