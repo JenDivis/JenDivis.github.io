@@ -1,0 +1,51 @@
+@media only screen and (min-width: 37.5em) {
+   nav button {
+       display: none;
+   }
+   
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        display:block;
+        flex: 1 1 auto;
+    }
+
+    header h1 {
+        font-size: 100px;
+    }
+
+    header p {
+        font-size: 30px;
+    }
+
+    footer div {
+        font-size: 25px;
+    }
+
+    nav ul.hide {
+        display: flex;
+    }
+
+    .heroDiv {
+        position: relative;
+        margin: 10px auto;
+        width: 100%;
+    }
+
+    .weatherSum {
+        position: absolute;
+        top: 5px;
+        left: 80px;
+        opacity: 0.8;
+    }
+    
+    .weatherSum h3 {
+        margin-top: 0;
+    }
+    
+    .weatherSum p {
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,23 @@
+@media only screen and (min-width: 60em) {
+    header h1 {
+        font-size: 150px;
+    }
+
+    header p {
+        font-size: 50px;
+    }
+
+    footer div {
+        font-size: 30px;
+    }
+
+    .weatherSum {
+        margin-top: 15px;
+        margin-left: 75px;
+    }
+
+    #forecastDiv div {
+        padding: 20px;
+        margin: 20px;
+    }
+}
