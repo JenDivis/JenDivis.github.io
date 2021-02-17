@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="A practice in Lazy Loading Images">
+        <title>Lazy Load Images</title>
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/small.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <h1>Lazy Loaded Images</h1>
+        <!--images dimensions of 300x400px
+            placeholder image with one background color and simple text "placeholder"-->
+        <picture>
+            <img src="img/placeholder.jpg" data-src="img/penny.webp" alt="Baby in red dress">
+        </picture>
+        <picture>
+            <img src="img/placeholder.jpg" data-src="img/mer.webp" alt="Girl with pink chalk on face">
+        </picture>
+        <picture>
+            <img src="img/placeholder.jpg" data-src="img/ellie.webp" alt="Girl holding a worm">
+        </picture>
+        <picture>
+            <img src="img/placeholder.jpg" data-src="img/rose.webp" alt="Girl posing for picture">
+        </picture>
+        <picture>
+            <img src="img/placeholder.jpg" data-src="img/us.webp" alt="Two corny adults wearing astronaut helmets">
+        </picture>
+        <script src="js/lazyLoad.js"></script>
+    </body>
+</html>
