@@ -63,7 +63,7 @@ nav li a {
     font-size: 25px;
     padding: 10px;
     font-family: 'Josefin Slab', Georgia, serif; 
-    transition: all .2s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 nav li a:hover {

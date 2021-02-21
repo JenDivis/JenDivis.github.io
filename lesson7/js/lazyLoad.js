@@ -5,6 +5,11 @@ const loadImages = (image) => {
         image.removeAttribute("data-src");
     };
 };
+const imgOptions = {
+  threshold: 1,
+  
+  rootmargin: "0px 0px 200px 0px"
+};
 
 if('IntersectionObserver' in window) {
     const observer = new IntersectionObserver((items, observer) => {
@@ -14,7 +19,7 @@ if('IntersectionObserver' in window) {
           observer.unobserve(item.target);
         }
       });
-    });
+    }, imgOptions);
     imagesToLoad.forEach((img) => {
       observer.observe(img);
     });
