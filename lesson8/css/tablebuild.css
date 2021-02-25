@@ -18,12 +18,13 @@ html {
     box-shadow: 5px 5px 8px 3px #628CA6;
   }
 
-  caption {
+  th[colspan] {
     border: 1px solid #adb3b1;
     border-bottom: none;
     background-color: #7fb9c2;
     font-weight: 700;
     font-size: 25px;
+    color: black;
   }
   
   td, th {
