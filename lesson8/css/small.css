@@ -1,9 +1,9 @@
 /* Color Palette:
-    (nav, footer) yellowGreenCrayola = #bce784;
-    (h1, h2, body) mediumAquamarine = #5dd39e;
-    () blueMunsell = #348aa7;
-    (NavHover) independence/purple = #525174;
-    (Header, h3) englishViolet = #513b56;
+    yellowGreenCrayola = #bce784;
+    mediumAquamarine = #5dd39e;
+    blueMunsell = #348aa7;
+    independence/purple = #525174;
+    englishViolet = #513b56;
 
 */
 
@@ -196,3 +196,57 @@ figcaption {
     text-align: center;
 }
 
+/* Storm Center Page*/
+
+form {
+    border: 5px solid #525174;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #5dd39e;
+    font-family: 'Josefin Slab', Georgia, serif;
+    font-size: x-large;
+}
+
+form label {
+    display: block;
+    margin: 0 0 20px 0;
+}
+
+form label input, select {
+    display: block;
+    padding: 12px;
+    border-radius: 3px;
+    width: 100%;
+    max-width: 320px;
+}
+
+.flexly {
+    display: flex;
+    align-items: center;
+}
+
+#ratingvalue {
+    margin: 0 148px;
+    font-weight: bold;
+}
+
+.noMargin {
+    margin: 0;
+}
+#region {
+    max-width: 340px;
+}
+
+.danger {
+    display:inline;
+}
+
+
+#submit {
+    background-color: #348aa7;
+    color: white;
+    margin-left: 20px;
+    padding: 12px;
+}
