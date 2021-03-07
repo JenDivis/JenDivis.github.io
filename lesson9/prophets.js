@@ -29,7 +29,7 @@ fetch(requestURL)
         card.append(pBdate);
         card.append(image);
 
-        document.querySelector('div.cards').append(card)
+        document.querySelector('div.cards').append(card);
     }
 
     

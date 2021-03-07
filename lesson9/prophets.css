@@ -24,7 +24,7 @@ main div {
     width: 100%;
     max-width: 1500px;
     margin: auto;
-
+    justify-content: center;
 }
 
 section {
