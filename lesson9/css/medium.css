@@ -83,5 +83,9 @@
         float: right;
     }
    
+    /*Community Board*/
+    #corkBoard p {
+        margin-right: 200px;
+    }
 }
 

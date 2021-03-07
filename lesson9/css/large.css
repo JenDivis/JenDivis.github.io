@@ -47,4 +47,8 @@
         grid-row: 1 / 2;
     }
     
+    /*Community Board*/
+    #corkBoard p {
+        margin-right: 400px;
+    }
 }
