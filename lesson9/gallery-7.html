@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <script></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Gallery of Weather images for SouthEastern Idaho">
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/small.css" rel="stylesheet">
+        <link href="css/medium.css" rel="stylesheet">
+        <link href="css/large.css" rel="stylesheet">
+        <link rel="shortcut icon" href="./img/favicon.ico">
+        <title>The Blue Bird Bulletin: Gallery</title>
+        <script src="./js/menu.js"></script>
+        
+    </head>
+    <body>
+        <header>
+            <div id="headerFlex">
+                <img id="icon" src="./img/bird.png" alt="Blue Bird Icon">
+                <h1>The Blue Bird Bulletin</h1>
+            </div>
+            <p>Hello, Southwest Idaho!</p>
+        </header>
+        <nav>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="hamburger" class="hide">
+                <li><a href="../lesson9/index.html">Home</a></li>
+                <li><a href="../lesson5/preston-5.html" >Preston</a></li>
+                <li><a>Soda Springs</a></li>
+                <li><a>Fish Haven</a></li>
+                <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+                <li class="active"><a>Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="galleryGrid">
+            <figure class="gallery">
+                <img src="./img/placeholdergreen.jpg" data-src="./img/rainbow.webp" alt="Double Rainbow">
+                <figcaption>
+                    Photo by <a href="https://stocksnap.io/author/ianlivesey">Ian Livesey</a> from <a href="https://stocksnap.io">StockSnap</a>
+                </figcaption>
+            </figure>
+
+            <figure class="gallery">
+                <img src="./img/placeholdergreen.jpg" data-src="./img/lightning.webp" alt="Lightning">
+                <figcaption>
+                    Image by <a href="https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=768801">Free-Photos</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=768801">Pixabay</a>
+                </figcaption>
+            </figure>
+
+            <figure class="gallery">
+                <img src="./img/placeholdergreen.jpg" data-src="./img/sunset.webp" alt="Sunset on the Lake">
+                <figcaption>
+                    Image by <a href="https://pixabay.com/users/shanejohnson-4383867/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2014103">shanejohnson</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2014103">Pixabay</a>
+                </figcaption>
+            </figure>
+
+            <figure class="gallery">
+                <img src="./img/placeholdergreen.jpg" data-src="./img/hotballoons.webp" alt="Hot Air Balloons in Boise, Idaho">
+                <figcaption>
+                    Image by <a href="https://pixabay.com/users/hatlerbratton-5373256/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4814472">Lyn Bratton</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4814472">Pixabay</a>
+                </figcaption>
+            </figure>
+
+            <figure class="gallery">
+                <img src="./img/placeholdergreen.jpg" data-src="./img/temple.webp" alt="Idaho Falls Temple">
+                <figcaption>
+                    Image by <a href="https://pixabay.com/users/arttower-5337/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=51513">Brigitte is always pleased to get a coffee</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=51513">Pixabay</a>
+                </figcaption>
+            </figure>
+
+            <figure class="gallery">
+                <img src="./img/placeholdergreen.jpg" data-src="./img/twister.webp" alt="Twister">
+                <figcaption>
+                    <span>Photo by <a href="https://unsplash.com/@nikolasnoonan?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Nikolas Noonan</a> on <a href="https://unsplash.com/s/photos/storm?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+                </figcaption>
+            </figure>
+
+            <figure class="gallery">
+                <img src="./img/placeholdergreen.jpg" data-src="./img/skier.webp" alt="Skier in the Mountains">
+                <figcaption>
+                    <span>Photo by <a href="https://unsplash.com/@glen_rushton?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Glen Rushton</a> on <a href="https://unsplash.com/s/photos/idaho?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+                </figcaption>
+            </figure>
+
+            <figure class="gallery">
+                <img src="./img/placeholdergreen.jpg" data-src="./img/dock.webp" alt="Person standing at the edge of a dock on a lake">
+                <figcaption>
+                    Photo by Gabriela Palai from Pexels
+                </figcaption>
+            </figure>
+
+            <figure class="gallery">
+                <img src="./img/placeholdergreen.jpg" data-src="./img/gnome.webp" alt="Gnome skiing">
+                <figcaption>
+                    Photo by Susanne Jutzeler from Pexels
+                </figcaption>
+            </figure>
+            </div>
+        </main>
+        <footer>
+            <p>Contact information</p>
+            <img src="./img/idaho_map.webp" alt="map of Idaho" width="200">
+            <div>
+                &copy; 2021 | Jennifer Divis | Maryland | <a href="https://www.byui.edu/online">BYU-I Online Learning</a><br>
+                <span id="date"></span>
+            </div>
+            
+            <script src="./js/currentDate.js"></script>
+            
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="./js/webFont.js"></script>
+        <script src="js/lazyLoad.js"></script>
+    </body>
+</html>

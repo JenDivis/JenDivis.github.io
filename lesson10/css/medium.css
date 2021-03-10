@@ -1,0 +1,91 @@
+@media only screen and (min-width: 37.5em) {
+   nav button {
+       display: none;
+   }
+   
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        display:block;
+        flex: 1 1 auto;
+    }
+
+    header h1 {
+        font-size: 100px;
+    }
+
+    header p {
+        font-size: 30px;
+    }
+
+    footer div {
+        font-size: 25px;
+    }
+
+    nav ul.hide {
+        display: flex;
+    }
+
+    .heroDiv {
+        position: relative;
+        margin: 10px auto;
+        width: 534px;
+    }
+
+    .weatherSum {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        opacity: 0.8;
+    }
+    
+    .weatherSum h3 {
+        margin-top: 0;
+    }    
+}
+@media only screen and (min-width: 37.5em) and (max-width: 59em){
+    /* Home Page */
+    .homeGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 20px;
+    }
+    .homeGrid section p{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    .homeGrid section:nth-child(2) { /*Preston*/
+        grid-row: 1 / 2;
+    }
+    .homeGrid section:nth-child(1) { /*Fish Haven*/
+        grid-row: 3 / 4;
+    }
+    .homeGrid section img{ /*Soda Springs*/
+        float: left;
+    }
+    .homeGrid section:nth-child(3) h2{ /*Soda Springs*/
+        float: right;
+        padding-left: 111px;
+    }
+    .homeGrid section:nth-child(3) p{ /*Soda Springs*/
+        float: right;
+        padding-left: 400px;
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+    .homeGrid section:nth-child(2) img{ /*Preston*/
+        float: right;
+    }
+    .homeGrid section:nth-child(1) img{ /*Fish Haven*/
+        float: right;
+    }
+   
+    /*Community Board*/
+    #corkBoard p {
+        margin-right: 200px;
+    }
+}
+

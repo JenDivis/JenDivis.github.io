@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <script></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Weather and local information for southeastern Idaho">
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/small.css" rel="stylesheet">
+        <link href="css/medium.css" rel="stylesheet">
+        <link href="css/large.css" rel="stylesheet">
+        <link rel="shortcut icon" href="./images/favicon.ico">
+        <title>The Blue Bird Bulletin: Preston</title>
+        <script src="./js/menu.js"></script>
+        
+    </head>
+    <body>
+        <div id="banner" class="banner">
+            <p><strong>Pancakes in the Park!</strong>  9:00 a.m. Saturday at the city park pavilion.</p>
+        </div>
+        <script src="./js/banner.js"></script>
+        <header>
+            <div id="headerFlex">
+                <img id="icon" src="./img/bird.png" alt="Blue Bird Icon">
+                <h1>The Blue Bird Bulletin</h1>
+            </div>
+            <p>Hello, Southwest Idaho!</p>
+        </header>
+        <nav>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="hamburger" class="hide">
+                <li><a href="./index.html">Home</a></li>
+                <li class="active"><a href="./preston-6.html">Preston</a></li>
+                <li><a>Soda Springs</a></li>
+                <li><a>Fish Haven</a></li>
+                <li><a href="./stormcenter.html">Storm Center</a></li>
+                <li><a href="./gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Preston, Idaho</h2>
+            <div class="heroDiv">
+                <picture class="heroImage">
+                    <source media="(min-width: 60em)" 
+                            srcset="./img/preston.webp">
+                    <source media="(min-width: 37.5em)"
+                            srcset="./img/preston.webp">
+                    <source srcset="./img/preston.webp">
+                    <img class="heroImage" src="./img/preston.webp" alt="Tree covered mountain by a lake.">
+                </picture>
+                
+                <section class="weatherSum">
+                    <h3>Weather Summary</h3>
+                    <p>Currently: <span id="current"></span></p>
+                    <p>Temperature: <span id="temp"></span>°F</p>
+                    <p>Wind Chill: <span id="windChill"></span>°F</p>
+                    <p>Humidity: <span id="humidity"></span>%</p>
+                    <p>Wind Speed: <span id="windSpeed"></span>mph</p>
+                </section>
+            </div>
+            <h3>Five Day Forecast</h3>
+            <div id="forecastDiv">
+                <div>Today</div>
+                <div>Tomorrow</div>
+                <div>Day After Tomorrow</div>
+                <div>The Day After That</div>
+                <div>And The Day After That</div>
+            </div>
+            <section>
+                <h3>COVID-19 Updates</h3>
+                <p>Many of you are asking about the COVID-19 vaccine, and when that will be available in our area. Franklin Medical Center has provided us some information.<br>
+                Healthcare Personnel & Long-term care facility Residents began recieving vaccinations in December of 2020. Then in January-February of 2021, frontline workers and adults 65 years and older were given the opportunity to recieve a vaccine. Coming this month, March, through April 2021 other essential workers and those with high risk medical conditions will be offered the vaccine.<br>
+                By May of 2021, we are anticipating vaccines being made available to the general public.<br>
+                If you have any further questions the COVID-19 hot-line at Willow Valley is (208) 840-1146</p>
+                <img src="#" alt="#">
+            </section>
+        </main>
+        <footer>
+            <p>Contact information</p>
+            <img src="./img/idaho_map.webp" alt="map" width="200">
+            <div>
+                &copy; 2021 | Jennifer Divis | Maryland | <a href="https://www.byui.edu/online">BYU-I Online Learning</a><br>
+                <span id="date"></span><br>
+                Weather Information provided by OpenWeatherMap.org
+            </div>
+            
+            <script src="./js/currentDate.js"></script>
+            
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="./js/webFont.js"></script>
+        <script src="./js/windChill.js"></script>
+        <script src="./js/weatherapi.js"></script>
+    </body>
+</html>
