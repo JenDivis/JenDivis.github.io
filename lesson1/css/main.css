@@ -9,6 +9,12 @@ body {
 main {
     background-color: whitesmoke;
 }
+div {
+    background-color: #BF0D19;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 img {
     max-width: 100%;
@@ -18,16 +24,18 @@ img {
 }
 
 h1 {
-    background-color: #BF0D19;
+    
     color: white;
     font-family: 'Gloria Hallelujah', cursive;
     padding: 10px;
-    font-size: 50px;
+    font-size: 5vw;
+    width: 100%;
 }
 
 h2, ul {
     font-family: 'Courier New', Courier, monospace;
     font-size: 35px;
+    padding-left: 50px;
 }
 
 footer {
@@ -41,3 +49,10 @@ a {
     text-decoration: none;
     color: #2D0774;
 }
+
+/*ClearFix*/
+.clearFix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
