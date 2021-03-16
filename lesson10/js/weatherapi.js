@@ -15,7 +15,7 @@ fetch(apiURL)
         //variable to store the weather description
         const desc = jsObject.weather[0].description;
         //Assign the <span> tag  with the id of 'imagesrc' the concatenated image variable to to display the full address for testing purposes.
-        //document.getElementById("imagesrc").textContent = imagesrc;
+        document.getElementById("imagesrc").textContent = imagesrc;
         //Set the src attribute for the <img> with the id of 'icon'.
         document.getElementById("weatherIcon").setAttribute('src', imagesrc);
         document.getElementById("weatherIcon").setAttribute('alt', desc);
