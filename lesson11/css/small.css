@@ -1,0 +1,315 @@
+/* Color Palette:
+    yellowGreenCrayola = #bce784;
+    mediumAquamarine = #5dd39e;
+    blueMunsell = #348aa7;
+    independence/purple = #525174;
+    englishViolet = #513b56;
+
+*/
+
+header {
+    background-color: #513b56;
+    color: white;
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+    font-size: 50px;
+
+}
+
+header h1 {
+    font-size: 50px;
+    margin: 0;
+}
+#headerFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header p {
+    font-size: 20px;
+    margin: 0;
+}
+
+nav {
+    background-color: #bce784;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 44px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+    font-family: 'Josefin Slab', Georgia, serif; 
+    transition: all .4s ease-in-out;
+}
+
+nav li a:hover {
+    color: white;
+    background-color: #525174;
+    transform: scale(1.2);
+}
+
+h1, h2 {
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    padding: 20px;
+    background-color: #348aa7;
+    font-size: 50px;
+}
+p, h3 {
+    font-family: 'Josefin Slab', Georgia, serif; 
+    font-size: 30px;
+}
+
+h3 {
+    background-color: #513b56 ;
+    color: white;
+    padding: 5px;
+    max-width: 100%;
+}
+
+body {
+    background-color: #5dd39e;
+}
+
+main {
+    background-color: white;
+    max-width: 85%;
+    margin: auto;
+    padding: 20px;
+}
+
+.heroImage {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#icon {
+    max-width: 180px;
+}
+
+footer {
+    max-width: 85%;
+    margin: auto;
+    padding: 20px;
+    background-color: #bce784;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+.active {
+    color: #D36D0D;
+    text-decoration: underline;
+}
+
+.weatherSum {
+    display: block;
+    background-color: #bce784;
+}
+
+.weatherSum h3 {
+    margin-bottom: 5px;
+}
+
+.weatherSum p {
+    font-size: 20px;
+    margin: 5px;
+
+}
+
+.banner {
+    display: none;
+}
+
+.displayTrue {
+    display: block;
+    padding-left: 20px;
+}
+
+#forecastDiv {
+    display: flex;
+    justify-content: center;
+}
+
+#forecastDiv div {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 2px 3px 5px #888888;
+}
+
+/*Gallery page*/
+img[data-src] {
+    filter: blur(0.2em);
+}
+#galleryGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 500px);
+    grid-gap: 10px 1px;
+}
+.gallery {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    border: 1px solid black;
+    grid-column: auto;
+    max-width: 400px;
+}
+
+.gallery img {
+    max-width: 100%;
+}
+
+figcaption {
+    text-align: center;
+}
+
+/* Storm Center Page*/
+
+form {
+    border: 5px solid #525174;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #5dd39e;
+    font-family: 'Josefin Slab', Georgia, serif;
+    font-size: x-large;
+}
+
+form label {
+    display: block;
+    margin: 0 0 20px 0;
+}
+
+form label input, select {
+    display: block;
+    padding: 12px;
+    border-radius: 3px;
+    width: 100%;
+    max-width: 320px;
+}
+
+.flexly {
+    display: flex;
+    align-items: center;
+}
+
+#ratingvalue {
+    margin: 0 148px;
+    font-weight: bold;
+}
+
+.noMargin {
+    margin: 0;
+}
+#region {
+    max-width: 340px;
+}
+
+.danger {
+    display:inline;
+}
+
+
+#submit {
+    background-color: #348aa7;
+    color: white;
+    margin-left: 20px;
+    padding: 12px;
+}
+
+/* Home Page */
+
+/*Hero Img*/
+#heroImg {
+    background-image: url(../img/homehero.webp);
+    background-attachment: fixed;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+#heroImg > section {
+
+    bottom: 0;
+    left: 0;
+    width: 85%;
+    padding: 20px 10px;
+    background: inherit;
+    background-attachment: fixed;
+}
+#heroImg > section::before {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 85%;
+    height: 85%;
+    background-attachment: fixed;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+}
+#welcome {
+    background: none;
+}
+
+/*Home Town Data Sections*/
+.homeGrid section {
+    padding: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+.homeGrid img {
+    max-width: 100%;
+}
+
+/*Community Message Board*/
+#corkBoard {
+    background-image: url(../img/corkboard.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    height: 500px;
+}
+#corkBoard p {
+    background-color: #bce784;
+    position: relative;
+    left: 30px;
+    top: 40px;
+    padding: 5px;
+    margin: 50px;
+}
+#corkBoard img {
+    position: relative;
+    padding: 5px;
+    left: 30px;
+    top: 40px;
+}
