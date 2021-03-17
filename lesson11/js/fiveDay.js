@@ -3,31 +3,29 @@ const URL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=i
     fetch(URL)
         .then((response) => response.json())
         .then((jsonObject) => {
-            console.log(jsonObject);
-            
+                        
             //filter
             const filter = jsonObject.list.filter((element) => element.dt_txt.includes("18:00:00"));
+            //console.log(filter);
 
-            const daynames = [
-                "Sun",
-                "Mon",
-                "Tues",
-                "Wed",
-                "Thur",
-                "Fri",
-                "Sat"
-            ];
+            const daynames = ["Sun", "Mon", "Tues", "Wed", "Thur", "Fri", "Sat"];
             
-            //loop here? through each day
             for (let i = 0; i < filter.length; i++) {
-                const day = new Date(filter[i].dt_text);
-                const wIcon = `https://openweathermap.org/img/w/${jsonObject.list[i].weather[0].icon}.png`;
-                const temp = Math.round(jsonObject.list[5].main.temp);
-                const forHtml = `<h4>${day}</h4>
-                    <img src="${wIcon}" alt="weather icon"></img>
-                    <div>${temp} °F</div>`;
+                let d = new Date(filter[i].dt_text);
+                let card = document.createElement('section');
+                let day = document.createElement('h2');
+                let icon = document.createElement('img');let temp = document.createElement('p');
+                
+                day.innerHTML = daynames[d.getDay()];
+                icon.setAttribute('src', `https://openweathermap.org/img/w/${filter[i].weather[0].icon}.png`);
+                icon.setAttribute('alt', 'weather icon')
+                temp.textContent = Math.round(filter[i].main.temp) + '°F';
+                
+                card.append(day);
+                card.append(icon);
+                card.append(temp);
 
-               document.getElementById("forecastDiv").innerHTML = forHtml;
+                document.querySelector('div#forecastDiv').append(card);
             }
             
         })
