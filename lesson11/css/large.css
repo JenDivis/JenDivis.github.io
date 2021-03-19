@@ -1,25 +1,29 @@
 @media only screen and (min-width: 60em) {
+    /*Header*/
     header h1 {
         font-size: 150px;
     }
-
     header p {
         font-size: 50px;
     }
 
+    /*Footer*/
     footer div {
         font-size: 30px;
     }
 
+    /**/
     .heroDiv {
         width: 800px;
     }
 
+    /**/
     #forecastDiv div {
         padding: 20px;
         margin: 20px;
     }
 
+    /**/
     .gallery:hover {
         box-shadow: 10px 12px 35px 10px #525252;
         transform: scale(1.2);
@@ -27,6 +31,7 @@
         height: 325px;
         transition: all .5s ease-in-out;
     }
+    
     /*Home Page*/
     .homeGrid {
         display: grid;
@@ -51,4 +56,5 @@
     #corkBoard p {
         margin-right: 400px;
     }
+
 }

@@ -11,7 +11,7 @@ const URL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=i
             const daynames = ["Sun", "Mon", "Tues", "Wed", "Thur", "Fri", "Sat"];
             
             for (let i = 0; i < filter.length; i++) {
-                let d = new Date(filter[i].dt_text);
+                let d = new Date(filter[i].dt_txt);
                 let card = document.createElement('section');
                 let day = document.createElement('h2');
                 let icon = document.createElement('img');let temp = document.createElement('p');

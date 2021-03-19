@@ -1,50 +1,62 @@
 @media only screen and (min-width: 37.5em) {
-   nav button {
+    
+    /*Nav*/
+    nav button {
        display: none;
-   }
-   
+   }   
     nav ul {
         display: flex;
     }
-
     nav ul li {
         display:block;
         flex: 1 1 auto;
     }
+    nav ul.hide {
+            display: flex;
+        }
 
+    /*Header*/
+    #icon {
+        margin-right: 20px;
+        max-width: 180px;
+    }
     header h1 {
         font-size: 100px;
     }
-
     header p {
         font-size: 30px;
     }
 
+    /*Footer*/
     footer div {
         font-size: 25px;
-    }
+    }    
 
-    nav ul.hide {
-        display: flex;
-    }
-
+    /**/
     .heroDiv {
         position: relative;
         margin: 10px auto;
         width: 534px;
     }
 
+    /*Weather Summary*/
     .weatherSum {
         position: absolute;
         top: 10px;
         left: 10px;
         opacity: 0.8;
-    }
-    
+    }    
     .weatherSum h3 {
         margin-top: 0;
     }    
+
+    /*Five Day Forecast*/
+    #forecastDiv {
+        display: flex;
+    }
 }
+
+
 @media only screen and (min-width: 37.5em) and (max-width: 59em){
     /* Home Page */
     .homeGrid {
@@ -87,5 +99,8 @@
     #corkBoard p {
         margin-right: 200px;
     }
+
+
+        /*Don't add code past this point*/
 }
 
