@@ -6,7 +6,7 @@ fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
         //print results to console
-        console.log(jsObject);
+        //console.log(jsObject);
         //write temp value to current-temp id
         document.getElementById("current-temp").textContent = jsObject.main.temp;
         

@@ -93,7 +93,7 @@ h1, h2 {
 }
 p, h3 {
     font-family: 'Josefin Slab', Georgia, serif; 
-    font-size: 30px;
+    font-size: 16px;
 }
 
 h3 {
@@ -165,7 +165,7 @@ img[data-src] {
 }
 #galleryGrid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 500px);
+    grid-template-columns: repeat(auto-fill, 350px);
     grid-gap: 10px 1px;
 }
 .gallery {
@@ -175,11 +175,9 @@ img[data-src] {
     grid-column: auto;
     max-width: 400px;
 }
-
 .gallery img {
     max-width: 100%;
 }
-
 figcaption {
     text-align: center;
 }
@@ -303,7 +301,8 @@ form label input, select {
 
 /*Five Day Forecast*/
 #forecastDiv {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
     justify-content: center;
 }
@@ -312,9 +311,13 @@ form label input, select {
     margin: 10px;
     box-shadow: 5px 10px 18px #888888;
 }
+#forecastDiv section > * {
+    margin: 0;
+}
 #forecastDiv section h2 {
     margin-top: 0;
     padding: 10px;
+    font-size: 20px;
 }
 #forecastDiv section img {
     width: 100px;

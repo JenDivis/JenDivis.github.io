@@ -23,12 +23,13 @@
         margin: 20px;
     }
 
-    /**/
+    /*Gallery*/
+    #galleryGrid {
+        grid-template-columns: repeat(auto-fill, 350px);
+    }
     .gallery:hover {
         box-shadow: 10px 12px 35px 10px #525252;
         transform: scale(1.2);
-        width: 425px;
-        height: 325px;
         transition: all .5s ease-in-out;
     }
     
