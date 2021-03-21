@@ -25,7 +25,8 @@
 
     /*Gallery*/
     #galleryGrid {
-        grid-template-columns: repeat(auto-fill, 350px);
+        grid-template-columns: repeat(auto-fill, 430px);
+        max-width: 1300px;
     }
     .gallery:hover {
         box-shadow: 10px 12px 35px 10px #525252;
