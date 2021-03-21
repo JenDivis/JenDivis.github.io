@@ -322,3 +322,14 @@ form label input, select {
 #forecastDiv section img {
     width: 100px;
 }
+
+/*Upcoming Events*/
+.eventsSection {
+    border-bottom: 5px double #513b56;
+}
+.eventsSection h3 {
+    margin-top: 0;
+}
+#events {
+    padding: 10px;
+}
