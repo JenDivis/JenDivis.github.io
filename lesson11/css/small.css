@@ -133,6 +133,14 @@ footer {
 footer a {
     text-decoration: none;
 }
+footer p {
+    margin: 0;
+}
+footer img {
+    margin: 10px;
+    box-shadow: 5px 10px 18px #4b4b4b;
+    border: 1px solid white;
+}
 
 /*Weather Summary*/
 .weatherSum {
