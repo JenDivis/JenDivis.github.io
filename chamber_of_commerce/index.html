@@ -9,58 +9,74 @@
         <link href="./css/medium.css" rel="stylesheet">
         <link href="./css/large.css" rel="stylesheet">
         <link rel="shortcut icon" href="./img/favicon-32x32.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Satisfy&display=swap" rel="stylesheet">
         <title>Colville, WA Chamber of Commerce</title>     
     </head>
     <body>
         <header>
             <div>
                 <img src="./img/logo.png" alt="Colville Chamber of Commerce Icon">
+                <nav>
+                    <button onclick="toggleMenu()">&#9776;</button>
+                    <ul id="hamburger" class="hide">
+                        <li class="wayfinding"><a href="">Home</a></li>
+                        <li><a href="./description.html">City Description</a></li>
+                        <li><a href="./join.html">Join the Chamber</a></li>
+                        <li><a href="./directory.html">Directory</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
         </header>
-        <nav>
-            <button onclick="toggleMenu()">&#9776;</button>
-            <ul id="hamburger" class="hide">
-                <li class="wayfinding"><a href="">Home</a></li>
-                <li><a href="./description.html">City Description</a></li>
-                <li><a href="./join.html">Join the Chamber</a></li>
-                <li><a href="./directory.html">Directory</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        
         <main>
-            <img src="./img/main_street.webp" alt="Mainstreet in Colville, WA">
-            <section>
+            <img id="hero" src="./img/main_street.webp" alt="Mainstreet in Colville, WA">
+            <div id="homeGrid">
+                <section class="middleGrid">
                 <h2>Our purpose</h2>
-                <p> to bring the city of Colville closer together, to find ways to support each other, and provide information for local businesses as well as residents.</p>
-            </section>
-            <section>
-                <div id="currentWeather">
+                <p>... to bring the city of Colville closer together, to find ways to support each other, and provide information for local businesses as well as residents.</p>
+                </section>
+                <section id="weatherSect">
                     <h2>Current Weather</h2>
-                    <h3>Temperature: <span id="currentTemp"></span>°F</h3>
-                    <h3>Condition: <span id="currentCond"></span></h3>
-                    <h3>Humidity: <span id="currentHum"></span>%</h3>
-                </div>
-                <div id="forecast">
+                    <div class="weather"  id="currentWeather">                  
+                        <h3>Temperature: <span id="currentTemp"></span>°F</h3>
+                        <h3>Condition: <span id="currentCond"></span></h3>
+                        <h3>Humidity: <span id="currentHum"></span>%</h3>
+                    </div>
                     <h2>Three Day Forecast</h2>
+                    <div class="weather" id="forecast">
                     <span id="forecastSpan"></span>
-                </div>
-            </section>
-            <img src="./img/ad_rds.png" alt="Ronnie D's Drive Through">    
-            <section>
-                Upcoming Events
-            </section>
-            <img src="./img/Flour_Mill.webp" alt="Flour Mill Advertisement">
-            <section>
-                <h2>Discover, Support, Inspire</h2>
-                <p>Join Colville Chamber of Commerce and Make a Difference Today.</p>
-                <a href="./join.html"><button>Join!</button></a>
-            </section>
-            <div>AD</div>
+                    </div>
+                </section>
+                <img class="ad adColumn" src="./img/ad_rds.png" alt="Ronnie D's Drive Through">    
+                <section class="middleGrid">
+                    <h2>Upcoming Events</h2>
+                    <ul id="events">
+                        <li>16 April: Colville Chamber's Home and Garden Show 2021</li><br>
+                        <li>24 April: Downtown Clean Up Day</li><br>
+                        <li>15 May: Arden Old Timers Rodeo</li><br>
+                        <li>20 June: 2021 Pend Oreille County Bigfoot Expedition</li><br>
+                        <li>3 Sep: FarmJam Festival</li>
+                    </ul>
+                </section>
+                <img class="ad adColumn" src="./img/Flour_Mill.webp" alt="Flour Mill Advertisement">
+                <section class="middleGrid" id="join">
+                    <h2>Discover, Support, Inspire</h2>
+                    <p>Join Colville Chamber of Commerce and Make a Difference Today.</p>
+                    <a href="./join.html"><button>Join!</button></a>
+                </section>
+                <img class="ad adColumn" src="./img/toy_ad.png" alt="Constructive Fun Toys Advertisement"></img>
+            </div>
         </main>
         <footer>
             <a href=""><img src="./img/social.webp" alt="Social Media Icons"></a>
-            <p>Contact Info</p>
-            &copy;2021 | Jennifer Divis | <a href="./attributions.html">Attributions</a> | Last Modified: <span id="lastModified"></span>
+            <h2>Contact Info</h2>
+            <p>1234 Nice rd<br>
+            Colville, Wa<br>
+            -----------------<br>
+            509-123-4567</p>
+            <p id="copyright">&copy;2021 | Jennifer Divis | <a href="./attributions.html">Attributions</a> | Last Modified: <span id="lastModified"></span></p>
         </footer>
         <script src="./js/lastUpdate.js"></script>
         <script src="./js/nav_menu.js"></script>

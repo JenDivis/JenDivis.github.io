@@ -3,25 +3,43 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <link href="css/normalize.css" rel="stylesheet">
-        <link href="css/small.css" rel="stylesheet">
-        <link href="css/medium.css" rel="stylesheet">
-        <link href="css/large.css" rel="stylesheet">
-        <link rel="shortcut icon" href="">
-        <title></title>     
+        <meta name="description" content="Colville, WA Chamber of Commerce home page.">
+        <link href="./css/normalize.css" rel="stylesheet">
+        <link href="./css/small.css" rel="stylesheet">
+        <link href="./css/medium.css" rel="stylesheet">
+        <link href="./css/large.css" rel="stylesheet">
+        <link rel="shortcut icon" href="./img/favicon-32x32.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Satisfy&display=swap" rel="stylesheet">
+        <title>Colville, WA Chamber of Commerce</title>     
     </head>
     <body>
-        <header></header>
+        <header>
+            <div>
+                <img src="./img/logo.png" alt="Colville Chamber of Commerce Icon">
+            </div>
+        </header>
         <nav>
-            <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="hamburger" class="hide">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./description.html">City Description</a></li>
+                <li><a href="./join.html">Join the Chamber</a></li>
+                <li><a href="./directory.html">Directory</a></li>
+                <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
         <main></main>
-        <footer></footer>
+        <footer>
+            <a href=""><img src="./img/social.webp" alt="Social Media Icons"></a>
+            <h2>Contact Info</h2>
+            <p>1234 Nice rd<br>
+            Colville, Wa<br>
+            -----------------<br>
+            509-123-4567</p>
+            <p id="copyright">&copy;2021 | Jennifer Divis | <a href="./attributions.html">Attributions</a> | Last Modified: <span id="lastModified"></span></p>
+        </footer>
+        <script src="./js/lastUpdate.js"></script>
+        <script src="./js/nav_menu.js"></script>
     </body>
 </html>

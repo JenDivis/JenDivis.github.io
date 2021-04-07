@@ -6,7 +6,7 @@ const URL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=i
                         
             //filter
             const filter = jsonObject.list.filter((element) => element.dt_txt.includes("18:00:00"));
-            //console.log(filter);
+            console.log(filter);
 
             const daynames = ["Sun", "Mon", "Tues", "Wed", "Thur", "Fri", "Sat"];
             

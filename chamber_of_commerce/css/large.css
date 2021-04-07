@@ -1,3 +1,49 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 900px) {
+    
+    /*Header*/
 
+
+    /*Nav*/
+
+    /*Footer*/
+
+    /*Home*/
+    #homeGrid {
+        display: grid;
+        grid-gap: 40px;
+        grid-template-columns: 20% 1fr 1fr 20%;
+    }
+    #weatherSect {
+        grid-column: 1 / 2;
+        grid-row: 1 / 4;
+    }
+    #weatherSect h2 {
+        font-size: 32px;
+    }
+    .middleGrid {
+        grid-column: 2 / 4;
+   
+    }
+    .adColumn {
+        grid-column: 4 / 5;
+
+    }
+
+
+    /*City Description*/
+
+
+    /*Join the Chamber*/
+
+
+    /*Confirmation pg*/
+
+
+    /*Directory*/
+
+
+    /*Contact*/
+
+
+    /*Attributions*/
 }

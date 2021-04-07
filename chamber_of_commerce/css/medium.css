@@ -1,3 +1,71 @@
 @media only screen and (min-width: 481px) {
+    /*Header*/
 
+
+    /*Nav*/
+    nav button {
+        display: none;
+    }   
+     nav ul {
+        display: flex;
+
+     }
+     nav ul li {
+         display: block;
+         flex: 1 1 auto;
+     }
+     nav li a {
+        text-align: center;
+        font-size: 16px;
+        padding: 10px;
+        border-bottom: none;
+        transition: width 2s;
+    }
+    nav li a:hover {
+        border-bottom: 2px solid #8C1E1C;
+    }
+    nav ul.hide {
+             display: flex;
+         }
+
+    /*Footer*/
+    footer {
+        padding: 20px 100px 20px 100px;
+    }
+    footer img {
+        max-width: 150px;
+    }
+    footer h2, {
+        display: inline;
+        font-size: 32px;
+    }
+    footer p#copyright {
+        margin: 20px;
+    }
+
+    /*Home*/
+    .ad {
+        max-width: 100%;
+    }
+
+    /*City Description*/
+    aside {
+        width: 30%;
+        float: right;
+        margin: 10px;
+    }
+
+    /*Join the Chamber*/
+
+
+    /*Confirmation pg*/
+
+
+    /*Directory*/
+
+
+    /*Contact*/
+
+
+    /*Attributions*/
 }

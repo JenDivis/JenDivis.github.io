@@ -15,8 +15,9 @@ fetch(weatherAPI)
         //3 day Forecast
         const daynames = ["Sun", "Mon", "Tues", "Wed", "Thur", "Fri", "Sat"];
 
-        for (let i = 0; i < jsObject.daily.length; i++) {
-            let d = new Date(jsObject.daily[i]);
+        for (let i = 0; i < jsObject.daily.length && i < 3; i++) {
+            let d = new Date(jsObject.daily[i].dt);
+            console.log(d);
             let card = document.createElement('section');
             let day = document.createElement('h3');
             let icon = document.createElement('img');
@@ -25,7 +26,7 @@ fetch(weatherAPI)
             day.innerHTML = daynames[d.getDay()];
             icon.setAttribute('src', `https://openweathermap.org/img/wn/${jsObject.current.weather[0].icon}.png`);
             icon.setAttribute('alt', 'daily weather icon');
-            temp.textContent = Math.round(jsObject.daily[i].temp) + '°F';
+            temp.textContent = Math.round(jsObject.daily[i].temp.day) + '°F';
 
             card.append(day);
             card.append(icon);
