@@ -170,7 +170,7 @@ nav li a {
         font-family: 'Satisfy', cursive;
         text-align: center;
     }
-    section#newsGrid div p {
+    div#newsGrid div p {
         margin-bottom: 2px;
     }
 

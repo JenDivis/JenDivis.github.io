@@ -54,11 +54,11 @@
         float: right;
         margin: 10px;
     }
-    section#newsGrid {
+    div#newsGrid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
-    section#newsGrid div {
+    div#newsGrid div {
         margin: 5px;
     }
 
