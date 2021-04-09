@@ -1,0 +1,94 @@
+{
+    "Businesses": [
+        {
+            "name": "Constructive Fun Toys",
+            "phone": "509-685-1386",
+            "address": {
+                "street": "163 S Main St",
+                "cityStateZip": "Colville, WA 99114"
+            },
+            "logo": "https://cdn.shopify.com/s/files/1/0147/3252/5668/files/children-sharing-and-playing-with-toys_195x.jpg?v=1561590060",
+            "weblink": "https://www.constructivefuntoys.com/"
+        },
+        {
+            "name": "EZ Knit Fabrics",
+            "phone": "509-684-2644",
+            "address": {
+                "street": "165 N. Main St.",
+                "cityStateZip": "Colville, WA 99114"
+            },
+            "logo": "https://media.rainpos.com/10824/456x239_e_z_knit_logo3png_2.png",
+            "weblink": "https://www.ezknit.com/"
+        },
+        {
+            "name": "Forget Me Not",
+            "phone": "509-684-8757",
+            "address": {
+                "street": "173 S. Main St.",
+                "cityStateZip": "Colville, WA 99114"
+            },
+            "logo": "https://shopfmnwa.square.site/uploads/b/fd1813e0-f7f5-11e9-b479-95ddd930e9cf/82F94B73-3A8F-4CF0-8CB2-D2487FB6ED33.jpeg?width=400",
+            "weblink": "https://shopfmnwa.square.site/"
+        },
+        {
+            "name": "R.E. Lee Shoe Company",
+            "phone": "509-685-1733",
+            "address": {
+                "street": "102 N. Main St.",
+                "cityStateZip": "Colville, WA 99114"
+            },
+            "logo": "https://images.locable.com/eyJidWNrZXQiOiJpbXBhY3QtcHJvZHVjdGlvbiIsImtleSI6Il9sb2dvcy9iYmNhNzg3Yi02ODgyLTQ4Y2YtOWQzNS05ZDc0MDBlY2M4NDcvc3RvcmUgcGljdHVyZSBhbmQgbmFtZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiaGVpZ2h0IjoxMjV9LCJqcGVnIjp7InF1YWxpdHkiOjgwfX19",
+            "weblink": "https://www.releeshoeco.com/"
+        },
+        {
+            "name": "Farmhouse Sweets Cafe & Bakery",
+            "phone": "509-685-7495",
+            "address": {
+                "street": "101 N. Main St.",
+                "cityStateZip": "Colville, WA 99114"
+            },
+            "logo": "https://images.locable.com/eyJidWNrZXQiOiJpbXBhY3QtcHJvZHVjdGlvbiIsImtleSI6Il9sb2dvcy8zNTQ4MmNlNS01YWExLTRjYjEtOGQ0Mi03MTY0NTJjODBkNTIvRmFybWhvdXNlIEJha2VyeSAmIFN3ZWV0cy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiaGVpZ2h0IjoxMjV9LCJqcGVnIjp7InF1YWxpdHkiOjgwfX19",
+            "weblink": "https://www.facebook.com/Farmhouse-Sweets-Cafe-Bakery-107302077676473/"
+        },
+        {
+            "name": "Re-Imagined Home",
+            "phone": "509-684-4673",
+            "address": {
+                "street": "108 S. Main St.",
+                "cityStateZip": "Colville, WA 99114"
+            },
+            "logo": "https://images.locable.com/eyJidWNrZXQiOiJpbXBhY3QtcHJvZHVjdGlvbiIsImtleSI6Il9sb2dvcy81YzVlMmI2YS1kNTI1LTRjODMtYWNkNC05MzhmYzMwNWNkMGUvUklITG9nby5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsiaGVpZ2h0IjoxMjV9LCJwbmciOnsicXVhbGl0eSI6ODAsImFkYXB0aXZlRmlsdGVyaW5nIjp0cnVlfX19",
+            "weblink": "https://www.re-imaginedhome.com/"
+        },
+        {
+            "name": "Country Store",
+            "phone": "509-684-2232",
+            "address": {
+                "street": "446 W. 1st Ave.",
+                "cityStateZip": "Colville, WA 99114"
+            },
+            "logo": "https://www.countrystore.net/wp-content/themes/countrystore-v2/img/CountryStore.svg",
+            "weblink": "https://www.countrystore.net/"
+        },
+        {
+            "name": "Ronnie D's",
+            "phone": "509-684-2642",
+            "address": {
+                "street": "505 N. Lincoln St.",
+                "cityStateZip": "Colville, WA 99114"
+            },
+            "logo": "data:image/jpeg;base64,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",
+            "weblink": "http://ronnieds.com/"
+        },
+        {
+            "name": "Westside Pizza",
+            "phone": "509-684-8254",
+            "address": {
+                "street": "555 S. Main Street",
+                "cityStateZip": "Colville, WA 99114"
+            },
+            "logo": "https://www.westsidepizza.com/sites/default/files/Westside_SiteLogo.png",
+            "weblink": "https://www.westsidepizza.com/"
+        }  
+    ]
+}

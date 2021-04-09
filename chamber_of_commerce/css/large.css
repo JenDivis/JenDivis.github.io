@@ -31,7 +31,11 @@
 
 
     /*City Description*/
-
+    .demo p {
+        float: right;
+        padding: 20px;
+        margin-right: 200px;
+    }
 
     /*Join the Chamber*/
 

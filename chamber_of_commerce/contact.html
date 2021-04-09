@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Colville, WA Chamber of Commerce home page.">
+        <meta name="description" content="Colville, WA Chamber of Commerce Contact Information page.">
         <link href="./css/normalize.css" rel="stylesheet">
         <link href="./css/small.css" rel="stylesheet">
         <link href="./css/medium.css" rel="stylesheet">
@@ -29,7 +29,39 @@
                 <li class="wayfinding"><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
-        <main></main>
+        <main>
+            <h2>Contact Information</h2>
+            <div id="contactFlex">
+               <section>
+                   <p><b>Colville Chamber of Commerce</b></p>
+                   <p>1234 Nice rd<br>
+                    Colville, Wa<br>
+                   <p>509-123-4567</p> 
+               </section>
+               <section id="googleMap">
+                   <a href="https://www.google.com/maps/place/Colville,+WA+99114/@48.5492174,-117.9132559,14.25z/data=!4m5!3m4!1s0x5362878add7b8c51:0x6fe5d8110f829d68!8m2!3d48.5449971!4d-117.9009545" target="_blank"><img src="./img/map.webp" alt="Google Map of Colville. Washington"></a>
+               </section>
+            </div>
+               <section>
+                <form method="get" action="confirm.html">
+                    <label><b>Name*</b>:<input type="text" id="1name" name="1name" pattern="[A-Z a-z-.]{1,}" required></label>
+                    <label>Cell Phone:<input type="tel" id="phone" name="phone"></label>
+                    <label><b>Business Name*</b>:<input type="text" id="busName" name="busName" required></label>
+                    <label><b>Email*</b>:<input type="email" id="email" name="email" placeholder="user@email.com" required></label>
+                    <label>Comments:<textarea rows="4" cols="28" name="busDescription">Enter text here...</textarea></label>
+                </section>
+               <section>
+                   <h2>Board of Directors</h2>
+                   <p>John Astor - President</p>
+                   <p>Clint Reeser - Vice President</p>
+                   <p>Alison Seal - Simon Callen - Kip November - Cynthia Tate - Joshua Bracken</p>
+               </section>
+            
+            
+            
+            
+            
+        </main>
         <footer>
             <a href=""><img src="./img/social.webp" alt="Social Media Icons"></a>
             <h2>Contact Info</h2>
@@ -41,5 +73,6 @@
         </footer>
         <script src="./js/lastUpdate.js"></script>
         <script src="./js/nav_menu.js"></script>
+        <script src="./js/google_map.js"></script>
     </body>
 </html>

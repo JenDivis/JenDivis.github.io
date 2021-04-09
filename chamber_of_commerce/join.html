@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Colville, WA Chamber of Commerce home page.">
+        <meta name="description" content="Colville, WA Chamber of Commerce Join Page.">
         <link href="./css/normalize.css" rel="stylesheet">
         <link href="./css/small.css" rel="stylesheet">
         <link href="./css/medium.css" rel="stylesheet">
@@ -29,7 +29,51 @@
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
-        <main></main>
+        <main>
+            <div>
+                <h2>Discover, Support, Inspire</h2>
+                <p>Colville Chamber of Commerce is a growing organization that offers incredible benefits to its members, such as trainings, social events, advertising and more. By joining, you too can have access to these benefits. See below for the list of <a href="#memberBenefits">member benefits</a>.</p>
+            </div>
+            <form method="get" action="confirm.html">
+                <label><b>First Name*</b>:<input type="text" id="1name" name="1name" pattern="[A-Z a-z-.]{1,}" required></label>
+                <label><b>Last Name*</b>:<input type="text" id="2name" name="2name" pattern="[A-Z a-z-.]{2,}" required></label>
+                <label>Title:<input type="text" id="title" name="title" pattern="[A-Z a-z-.]{2,}"></label>
+                <label><b>Email*</b>:<input type="email" id="email" name="email" placeholder="user@email.com" required></label>
+                <label>Cell Phone:<input type="tel" id="phone" name="phone"></label>
+                <label><b>Business Name*</b>:<input type="text" id="busName" name="busName" required></label>
+                <label>Business Address:<input type="text" id="address" name="address"></label>
+                <label>Business Website:<input type="url" id="busWebsite" name="busWebsite"></label>
+                <label>Business Description:<textarea rows="4" cols="28" name="busDescription">Enter text here...</textarea></label>
+                <label id="noMargin">Membership Level: (See Benefits Below)</label>
+                    <input class="radio" type="radio" id="gold" name="level"><label class="radio" for="gold"> Gold ($1,000)</label><br>
+                    <input class="radio" type="radio" id="silver" name="level"><label class="radio" for="silver"> Silver ($400)</label><br>
+                    <input class="radio" type="radio" id="bronze" name="level"><label class="radio" for="bronze"> Bronze ($200)</label><br>
+                    <input class="radio" type="radio" id="nonProfit" name="level"><label class="radio" for="nonProfit"> Non-Profit ($100)</label><br><br>                            
+                <input type="submit" value="Join Us" name="join" id="submit">
+            </form>
+            <section>
+                <h2 id="memberBenefits">Membership Level Benefits</h2>
+                <ul>
+                    <li>Gold: <br>
+                    -	Two tickets to our annual Chamber Luncheon.<br>
+                    -	Subscription to our Monthly newsletter.<br>
+                    -	Three advertisements on our Chamber website.<br>
+                    -	Three Printed Advertisements in The Spokesman Review.</li>
+                    
+                    <li>Silver:<br>
+                    -	Two tickets to our annual Chamber Luncheon.<br>
+                    -	Subscription to our Monthly newsletter.<br>
+                    -	Three advertisements on our Chamber website.</li>
+                    
+                    <li>Bronze:<br>
+                    -	Subscription to our Monthly newsletter.<br>
+                    -	Three advertisements on our Chamber website.</li>
+                    
+                    <li>Non-Profit:<br>
+                    -	Subscription to our Monthly newsletter.</li>
+                </ul>
+            </section>
+        </main>
         <footer>
             <a href=""><img src="./img/social.webp" alt="Social Media Icons"></a>
             <h2>Contact Info</h2>
